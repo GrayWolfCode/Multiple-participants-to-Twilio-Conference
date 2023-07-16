@@ -3,8 +3,8 @@ const bodyParser = require('body-parser');
 const VoiceResponse = require('twilio').twiml.VoiceResponse;
 const twilio = require('twilio');
 const app = express();
-const accountSid = 'AC7876642a5f7b51ef935aff86faf16950';
-const authToken = '7e56ec5983ebb56bc732e38642b71eed';
+const accountSid = '';
+const authToken = '';
 const client = twilio(accountSid, authToken);
 // Allowed numbers to start the conference
 const allowedNumbers = ['+18126182967', '+15407265280'];
